@@ -1,3 +1,2 @@
 #!/bin/bash
-0 string SCHOOL School data
-school.mgc
+printf '0 string SCHOOL School data file\n!:mime application/x-school\n' > school.mgc
