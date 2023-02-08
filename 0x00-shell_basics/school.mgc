@@ -1,2 +1,3 @@
 #!/bin/bash
-printf '0 string SCHOOL School data file\n' > school.mgc
+0 string SCHOOL School data
+school.mgc
