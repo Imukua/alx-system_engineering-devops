@@ -16,4 +16,4 @@ read -p "Enter the commit: " commit_name
 
 git commit -m $commit_name
 
-#git push
+igit push
