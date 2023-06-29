@@ -35,7 +35,6 @@
 
 - Implemented in [4-if_9_say_hi](./4-if_9_say_hi)
 
-  
 #### 5. 4 bad luck, 8 is your chance🚀
 - Write a Bash script that loops from 1 to 10 and:
   - displays `bad luck` for the 4th loop iteration
@@ -46,5 +45,26 @@
   - You must use the while loop (for and until are forbidden)
   - You must use the if, elif and else statements
 
+  - implemented in [5-4_bad_luck_8_is_your_chance](./5-4_bad_luck_8_is_your_chance)
 
+#### 6. Superstitious numbers 🚀
+- Write a Bash script that displays numbers from 1 to 20 and:
+  - displays 4 and then bad luck from China for the 4th loop iteration
+  - displays 9 and then bad luck from Japan for the 9th loop iteration
+  - displays 17 and then bad luck from Italy for the 17th loop iteration
 
+- Requirements:🔒
+  - You must use the while loop (for and until are forbidden)
+  - You must use the case statement
+
+  implemented in [6-Superstitious-numbers](./6-superstitious_numbers)
+
+#### 7. Clock🚀
+- Write a Bash script that displays the time for 12 hours and 59 minutes:
+  - display hours from 0 to 12
+  - display minutes from 1 to 59
+
+- Requirements:🔒
+  - You must use the while loop (for and until are forbidden)
+
+-implemented in [7-clock](./7-clock)
