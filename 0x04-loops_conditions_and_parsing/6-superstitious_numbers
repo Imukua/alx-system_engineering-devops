@@ -6,9 +6,9 @@
 
 count=1
 
-while [ $count -lt 20 ]
+while [ $count -le 20 ]
 do
-    echo "Best School"
+    echo "$count"
     case $count in
         "4") echo "bad luck from China";;
         "9") echo "bad luck from Japan";;
