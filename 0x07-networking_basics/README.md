@@ -45,5 +45,6 @@ This project consists of the following tasks:
 - Learn about the significance of ports in network devices and the concept of sockets.
 - Write a Bash script to display listening ports and associated processes.
 
+6. [Ping and ICMP](./5-is_the_host_on_the_network)
 
-Note: Each task is accompanied by a specific file in the GitHub repository, which contains the solution or code related to that task. Click on the task titles above to access the corresponding files in the repository.
+__Note__: Each task is accompanied by a specific file in the GitHub repository, which contains the solution or code related to that task. Click on the task titles above to access the corresponding files in the repository.
