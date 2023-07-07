@@ -1,4 +1,13 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-cp /etc/hosts hosts.new
-sed -i s/127.*$/127.0.0.2\\tlocalhost\\n8.8.8.8\\tfacebook.com/g hosts.new
+# Backup the original hosts file
+sudo cp /etc/hosts ~/hosts.new
+
+# Update localhost entry in the temporary hosts file
+sudo sed -i 's/127.0.0.1/127.0.0.2/g' ~/hosts.new
+
+# Update facebook.com entry in the temporary hosts file
+sudo sed -i 's/157.240.11.35/8.8.8.8/g' ~/hosts.new
+
+# Overwrite the /etc/hosts file in Docker container
+sudo cp -f ~/hosts.new /etc/hosts
