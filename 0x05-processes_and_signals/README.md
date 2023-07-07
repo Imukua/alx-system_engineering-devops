@@ -1,8 +1,8 @@
-# 0x05. Processes and Signals
+# 0x05. Processes and Signals🤖🚦
 
 This repository contains the solutions for the "0x05. Processes and Signals" project of the DevOpsNetwork specialization. The project focuses on understanding processes and signals in Linux, including topics such as PIDs (Process IDs), process management, killing processes, and handling signals.
 
-## Resources
+## Resources📚
 
 Read or watch the following resources to learn more about the topics covered in this project:
 
