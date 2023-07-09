@@ -1,2 +1,1 @@
-0-iambetty - a script that switches the current user to the user betty
-
+to be updated
