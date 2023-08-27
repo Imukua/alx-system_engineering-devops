@@ -1,8 +1,4 @@
-#passwordless connection
-Host *
-    SendEnv LANG LC_*
-    HashKnownHosts yes
-    GSSAPIAuthentication yes
-    GSSAPIDelegateCredentials no
-    IdentityFile ~/.ssh/school
-    PasswordAuthentication no
+#!/usr/bin/env bash
+# Generates a RSA key pair
+
+ssh-keygen -b 4096 -f school -N betty

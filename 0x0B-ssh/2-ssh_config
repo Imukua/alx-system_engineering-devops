@@ -1,4 +1,8 @@
-#!/usr/bin/env bash
-# connects to  server using private-key
-
-ssh  ubuntu@34.204.81.136 -i ~/.ssh/school
+#config -file
+Host *
+    SendEnv LANG LC_*
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials no
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
