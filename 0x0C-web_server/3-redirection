@@ -14,7 +14,7 @@ server {
     index index.html;
 
     location / {
-        return 301 https://github.com/Imukua;
+        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
     }
 }
 EOL'
