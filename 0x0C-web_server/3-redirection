@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 #script to redirect requests
 sudo apt-get -y update
 sudo apt-get -y install nginx
