@@ -14,9 +14,9 @@ server {
     index index.html;
 
     location / {
-        try_files \$uri \$uri/ =404;
+        return 301 https://github.com/Imukua;
     }
 }
 EOL'
 
-service nginx start
+service nginx restart
