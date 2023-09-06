@@ -6,4 +6,9 @@
 
 - `0-custom_http_response_header` 🛠️: This Bash script configures `web-02` to be identical to `web-01`. It also adds a custom Nginx response header named `X-Served-By`, with the value being the hostname of the server running Nginx. 📝
 
+## Task 1: Install Your Load Balancer 🧰
+
+**Files:**
+
+- `1-install_load_balancer` 🏗️: This Bash script installs and configures HAproxy on the `lb-01` server to act as a load balancer. It ensures that traffic is distributed evenly to `web-01` and `web-02` using a round-robin algorithm. 🔄
 
