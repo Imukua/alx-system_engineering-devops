@@ -1,0 +1,2 @@
+#script to reload gunicorn gracefully
+ps aux | grep gunicorn | awk '{ print $2 }' | xargs kill -HUP
